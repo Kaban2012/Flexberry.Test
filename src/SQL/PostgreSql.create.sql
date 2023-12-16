@@ -12,7 +12,7 @@ CREATE TABLE Город (
 
 CREATE TABLE NewClass2 (
  primaryKey UUID NOT NULL,
- Номер INT NULL,
+ Номер VARCHAR(255) NULL,
  Город UUID NOT NULL,
  PRIMARY KEY (primaryKey));
 

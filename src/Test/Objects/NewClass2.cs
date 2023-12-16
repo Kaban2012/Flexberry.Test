@@ -41,7 +41,7 @@ namespace IIS.Test
     public class NewClass2 : ICSSoft.STORMNET.DataObject
     {
         
-        private int fНомер;
+        private string fНомер;
         
         private int fвоЭтажей;
         
@@ -89,14 +89,15 @@ namespace IIS.Test
         // *** Start programmer edit section *** (NewClass2.Номер CustomAttributes)
 
         // *** End programmer edit section *** (NewClass2.Номер CustomAttributes)
-        public virtual int Номер
+        [StrLen(255)]
+        public virtual string Номер
         {
             get
             {
                 // *** Start programmer edit section *** (NewClass2.Номер Get start)
 
                 // *** End programmer edit section *** (NewClass2.Номер Get start)
-                int result = this.fНомер;
+                string result = this.fНомер;
                 // *** Start programmer edit section *** (NewClass2.Номер Get end)
 
                 // *** End programmer edit section *** (NewClass2.Номер Get end)

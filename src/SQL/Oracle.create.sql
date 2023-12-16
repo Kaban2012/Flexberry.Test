@@ -20,7 +20,7 @@ CREATE TABLE "NewClass2"
 
 	"primaryKey" RAW(16) NOT NULL,
 
-	"Номер" NUMBER(10) NULL,
+	"Номер" NVARCHAR2(255) NULL,
 
 	"Город" RAW(16) NOT NULL,
 

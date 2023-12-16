@@ -23,7 +23,7 @@ public class NewClass2 {
     private UUID primarykey;
 
     @Column(name = "Номер")
-    private Integer номер;
+    private String номер;
 
     @Column(name = "воЭтажей")
     private Integer воэтажей;
@@ -51,11 +51,11 @@ public class NewClass2 {
         return primarykey;
     }
 
-    public Integer getНомер() {
+    public String getНомер() {
       return номер;
     }
 
-    public void setНомер(Integer номер) {
+    public void setНомер(String номер) {
       this.номер = номер;
     }
 

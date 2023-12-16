@@ -17,7 +17,7 @@ CREATE TABLE [NewClass2] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
 
-	 [Номер] INT  NULL,
+	 [Номер] VARCHAR(255)  NULL,
 
 	 [Город] UNIQUEIDENTIFIER  NOT NULL,
 
