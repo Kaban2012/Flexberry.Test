@@ -1,0 +1,29 @@
+﻿{
+  "applicationCaption": "Test",
+  "applicationTitle": "Test",
+  "items": [
+    {
+      "link": null,
+      "menuName": "test",
+      "caption": "Test",
+      "title": "Test",
+      "children": [
+        {
+          "link": "i-i-s-test-город-l",
+          "menuName": null,
+          "caption": "Город",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-test-new-class2-l",
+          "menuName": null,
+          "caption": "New class2",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

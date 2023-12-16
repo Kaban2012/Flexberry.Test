@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Город",
+      "projection": "ГородL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "New class2",
+  "name": "IISTestNewClass2E",
+  "className": "NewClass2E",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-test-new-class2",
+      "modelProjection": "NewClass2E"
+    }
+  ]
+}
